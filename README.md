@@ -8,7 +8,7 @@
   Runs on Windows Systems with Windows 10 and greater.
 </p>
 
-![2024-01-12 13_57_21-SCHUNK](https://github.com/SCHUNK-SE-Co-KG/SCHUNK_Application/assets/156294426/b3fd768f-ac0e-4743-b92a-db1ae5f3da46)
+![2024-01-12 14_55_30-SCHUNK](https://github.com/SCHUNK-SE-Co-KG/SCHUNK_Application/assets/156294426/fa93410e-6bb7-479f-b0b2-7076d1d7937c)
 
 <h3>Release notes:</h3>
 Information: Supported SCHUNK devices are EGU and EGK grippers with firmware version 5.1 or 5.2.
