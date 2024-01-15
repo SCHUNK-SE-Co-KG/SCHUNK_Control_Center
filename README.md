@@ -1,4 +1,4 @@
-# SCHUNK_Application
+# SCHUNK_Control_Center
 
 <h3>Description</h3> <p>This is SCHUNK's Setup- and Configuration Software for electromechanical grippers of the type EGU and EGK.
   Please connect the gripper with the network of your PC to gain access to our devices.
