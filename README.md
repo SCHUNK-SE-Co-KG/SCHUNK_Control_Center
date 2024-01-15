@@ -18,12 +18,10 @@ Fixed Bugs:
 * Fixed a problem where firmware was not flashed correctly to the gripper module.
 * Fixed “Prepare for shutdown” functionality did not work properly.
 * Fixed a crash, when user was trying to write invalid parameter values to the gripper.
-* Fixed a problem, where app started with a grey screen, when switching between different versions of SCHUNK app.
 
 Improvements & new features:
 
 * 200% Grip force on EGU grippers is now supported.
-* Flashing firmware via Service CAN is now supported.
 * The official gripper firmware releases 5.1 and 5.2 are now integrated for firmware update.
 * In all GUI elements, comm. FW version is replaced with gripper FW version to avoid confusion.
 * Some minor design changes.
