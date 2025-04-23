@@ -11,24 +11,26 @@
 ![2024-01-12 14_55_30-SCHUNK](https://github.com/SCHUNK-SE-Co-KG/SCHUNK_Application/assets/156294426/fa93410e-6bb7-479f-b0b2-7076d1d7937c)
 
 <h3>Release notes:</h3>
-Information: Supported SCHUNK devices are EGU and EGK grippers with firmware version 5.1 or 5.2.
+Information: Supported SCHUNK devices are EGU, EGK and EZU grippers with firmware version 5.1, 5.2 or 5.3 and the EGP 40-IL-GKS gripper.
 
 Fixed Bugs:
 
-* Fixed a problem where firmware was not flashed correctly to the gripper module.
-* Fixed “Prepare for shutdown” functionality did not work properly.
-* Fixed a crash, when user was trying to write invalid parameter values to the gripper.
+- Fixed an issue with parameters containing invalid data
+- Fixed wrong display of some parameter data 
+- Smaller issues within the scripting feature in Mechatronic Gripper app are fixed
+- Several smaller improvements and Bug fixes
+
 
 Improvements & new features:
 
-* 200% Grip force on EGU grippers is now supported.
-* The official gripper firmware releases 5.1 and 5.2 are now integrated for firmware update.
-* In all GUI elements, comm. FW version is replaced with gripper FW version to avoid confusion.
-* Some minor design changes.
-* General stability and performance improvements.
+- You can now enable a console in the settings, to view all data communicated with modules
+- The EGP 40-IL-GKS is now supported
+- You can now connect via Wireless to supported Grippers 
+
 
 Known issues:
 
-* Sometimes the screen gets stuck at “Searching for devices” process. If this is happening to you, please retrigger “Search devices”.
-* The parameters of a module are getting hidden when using the "Reconnect" function in “Configuration” menu. To display them again, use function “Refresh” in “…” menu of Parameters tab, or reconnect to the gripper module from device selection dialogue.
-* When user changes IP configuration from an already connected device using "Configuration" menu, there is no automatic reconnect to the new IP address. Please reconnect manually using the device selection dialogue.
+- Flashing the version 6.1 via wireless connection to a gripper, may fail depending on the state of the gripper. Try the flashing process again.
+- The app sometimes does not recognize a failed shutdown of the connected gripper. 
+- After switching the language some inputs are marked as invalid depending on the used decimal separator. 
+- Performance issues via Modbus and IO-Link
