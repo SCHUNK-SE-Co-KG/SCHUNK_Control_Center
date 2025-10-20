@@ -4,7 +4,7 @@
   Please connect the gripper with the network of your PC to gain access to our devices.
 </p>
 <h3>Compatible Systems</h3> <p>
-  SCHUNK EGU and EGK gripping modules with industrial Ethernet. <br>
+  SCHUNK EGU, EZU and EGK gripping modules with industrial Ethernet. <br>
   Runs on Windows Systems with Windows 10 and greater.
 </p>
 
@@ -12,25 +12,29 @@
 
 <h3>Release notes:</h3>
 Information: Supported SCHUNK devices are EGU, EGK and EZU grippers with firmware version 5.1, 5.2 or 5.3 and the EGP 40-IL-GKS gripper.
+Supported operating systems: Windows 10/11
 
-Fixed Bugs:
+<h4>General Updates</h4>
+- New homescreen with improved app handling and favourites
+- Improved messages in log-console
 
-- Fixed an issue with parameters containing invalid data
-- Fixed wrong display of some parameter data 
-- Smaller issues within the scripting feature in Mechatronic Gripper app are fixed
-- Several smaller improvements and Bug fixes
+<h4>Mechatronic Grippers</h4>
+- Compatible Devices: EGP 40-IL-GKS, EZU, EGU (v5.1+), EGK (v5.1+)
+- Supported Communication: PROFINET, EtherNet/IP, EtherCAT via EoE, ModBus, IO-Link, Wireless
 
+Features
+- Includes firmware-support for EGU/EGK/EZU version 5.3.1
+- Includes firmware-support for EGP 40-IL-GKS version 6.1.1
 
-Improvements & new features:
+Bug fixes
+- Fixed performance issues with the ModBus and IO-Link Connection.
+- Fixed an issue where it was not possible to set a new user-level on the search-screen
+- Fixed stability issues with wireless connection.
 
-- You can now enable a console in the settings, to view all data communicated with modules
-- The EGP 40-IL-GKS is now supported
-- You can now connect via Wireless to supported Grippers 
+<h4>NEW: FTS</h4>
+- Compatible Devices: FTS (v2.1.0)
+- Supported Communication: PROFINET, EtherNet/IP, EtherCAT via EoE
 
-
-Known issues:
-
-- Flashing the version 6.1 via wireless connection to a gripper, may fail depending on the state of the gripper. Try the flashing process again.
-- The app sometimes does not recognize a failed shutdown of the connected gripper. 
-- After switching the language some inputs are marked as invalid depending on the used decimal separator. 
-- Performance issues via Modbus and IO-Link
+Features
+- First release of the FTS-app in SCHUNK Control Center.
+- Connect to your SCHUNK Force-Torque-Sensor, change the configuration and view incoming data in realtime.
