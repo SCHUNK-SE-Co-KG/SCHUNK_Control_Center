@@ -15,10 +15,12 @@ Information: Supported SCHUNK devices are EGU, EGK and EZU grippers with firmwar
 Supported operating systems: Windows 10/11
 
 <h4>General Updates</h4>
+
 - New homescreen with improved app handling and favourites
 - Improved messages in log-console
 
 <h4>Mechatronic Grippers</h4>
+
 - Compatible Devices: EGP 40-IL-GKS, EZU, EGU (v5.1+), EGK (v5.1+)
 - Supported Communication: PROFINET, EtherNet/IP, EtherCAT via EoE, ModBus, IO-Link, Wireless
 
@@ -32,6 +34,7 @@ Bug fixes
 - Fixed stability issues with wireless connection.
 
 <h4>NEW: FTS</h4>
+
 - Compatible Devices: FTS (v2.1.0)
 - Supported Communication: PROFINET, EtherNet/IP, EtherCAT via EoE
 
