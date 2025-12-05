@@ -1,11 +1,12 @@
 # SCHUNK_Control_Center
 
-<h3>Description</h3> <p>This is SCHUNK's Setup- and Configuration Software for electromechanical grippers of the type EGU and EGK.
-  Please connect the gripper with the network of your PC to gain access to our devices.
+<h3>Description</h3> <p>This is SCHUNK's Setup- and Configuration Software for electromechanical grippers of the type EGU, EGK and EZU and the SCHUNK FT-Sensor.
+  Please connect the device with the network of your PC to gain access to our devices.
 </p>
 <h3>Compatible Systems</h3> <p>
   SCHUNK EGU, EZU and EGK gripping modules with industrial Ethernet. <br>
-  Runs on Windows Systems with Windows 10 and greater.
+  SCHUNK FT-Sensor with Firmware >= 2.1 <br>
+  Runs on Windows Systems with Windows 10 and later.
 </p>
 
 ![2024-01-12 14_55_30-SCHUNK](https://github.com/SCHUNK-SE-Co-KG/SCHUNK_Application/assets/156294426/fa93410e-6bb7-479f-b0b2-7076d1d7937c)
