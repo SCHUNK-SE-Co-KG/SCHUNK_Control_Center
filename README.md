@@ -1,24 +1,19 @@
 # SCHUNK_Control_Center
 
 <h3>Description</h3> <p>This is SCHUNK's Setup- and Configuration Software for electromechanical grippers of the type EGU, EGK and EZU and the SCHUNK FT-Sensor.
-  Please connect the device with the network of your PC to gain access to our devices.
+  Please connect the device with the network of your PC to gain access to your devices.
 </p>
 <h3>Compatible Systems</h3> <p>
   SCHUNK EGU, EZU and EGK gripping modules with industrial Ethernet. <br>
   SCHUNK FT-Sensor with Firmware >= 2.1 <br>
-  Runs on Windows Systems with Windows 10 and later.
+  Runs on Windows Systems with Windows 11
 </p>
 
 ![2024-01-12 14_55_30-SCHUNK](https://github.com/SCHUNK-SE-Co-KG/SCHUNK_Application/assets/156294426/fa93410e-6bb7-479f-b0b2-7076d1d7937c)
 
 <h3>Release notes:</h3>
-Information: Supported SCHUNK devices are EGU, EGK and EZU grippers with firmware version 5.1, 5.2 or 5.3 and the EGP 40-IL-GKS gripper.
-Supported operating systems: Windows 10/11
-
-<h4>General Updates</h4>
-
-- New homescreen with improved app handling and favourites
-- Improved messages in log-console
+Information: Supported SCHUNK devices are EGU, EGK and EZU grippers with firmware version 5.1+ and the EGP 40-IL-GKS gripper.
+Supported operating systems: Windows 11
 
 <h4>Mechatronic Grippers</h4>
 
@@ -26,19 +21,22 @@ Supported operating systems: Windows 10/11
 - Supported Communication: PROFINET, EtherNet/IP, EtherCAT via EoE, ModBus, IO-Link, Wireless
 
 Features
-- Includes firmware-support for EGU/EGK/EZU version 5.3.1
-- Includes firmware-support for EGP 40-IL-GKS version 6.1.1
+- Introduced new ROS communication interface to connect to grippers that are e.g. connected to a UR robot using SCHUNK Polyscope X robot plugin.
+- Minor UI changes to improve experience.
 
 Bug fixes
-- Fixed performance issues with the ModBus and IO-Link Connection.
-- Fixed an issue where it was not possible to set a new user-level on the search-screen
-- Fixed stability issues with wireless connection.
+- Fixed an issue where you where not able to see manually added grippers.
+- Fixed some problems when filtering found grippers using the search bar.
 
-<h4>NEW: FTS</h4>
+<h4>FTS</h4>
 
-- Compatible Devices: FTS (v2.1.0)
+- Compatible Devices: FTS (v2.1.0+)
 - Supported Communication: PROFINET, EtherNet/IP, EtherCAT via EoE
 
 Features
-- First release of the FTS-app in SCHUNK Control Center.
-- Connect to your SCHUNK Force-Torque-Sensor, change the configuration and view incoming data in realtime.
+- Added new FTS Firmware 2.3.2
+- Reworked UI for better experience with different display resolutions
+- Added new "Data monitoring" tab to get signal statisitcs
+- Overrange limits can now be exported to file
+- Displayed mechanical overrange limits are now in µm/m
+- New tooltips to explain functions to the user
